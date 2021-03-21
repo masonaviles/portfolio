@@ -40,6 +40,7 @@ import {
 } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
+import logo from "assets/img/portfolio/logo.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -77,7 +78,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={reactWhite}
+                  src={logo}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
