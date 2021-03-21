@@ -54,7 +54,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      Software Engineer
+                      Software Engineer | Educator | Tarot Reader
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
