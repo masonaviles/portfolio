@@ -24,21 +24,39 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+
+import AboutMe from "views/AboutMe.js";
+import Projects from "views/Projects.js";
+import Contact from "views/Contact.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
-      <Route
+      <Route 
+        path="/" 
+        exact 
+        render={props => <Index {...props} />} />
+      <Route 
+        path="/about-me" 
+        exact 
+        render={props => <AboutMe {...props} />} />
+      <Route 
+        path="/contact" 
+        exact 
+        render={props => <Contact {...props} />} />
+      <Route 
+        path="/projects" 
+        exact 
+        render={props => <Projects {...props} />} />
+      {/* <Route
         path="/landing-page"
         exact
         render={props => <Landing {...props} />}
       />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
+      <Route 
+        path="/login-page" 
+        exact 
+        render={props => <Login {...props} />} />
       <Route
         path="/profile-page"
         exact
@@ -48,7 +66,7 @@ ReactDOM.render(
         path="/register-page"
         exact
         render={props => <Register {...props} />}
-      />
+      /> */}
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

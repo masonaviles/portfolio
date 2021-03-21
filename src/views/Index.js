@@ -16,37 +16,42 @@
 
 */
 import React from "react";
+// nodejs library that concatenates classes
+import classnames from "classnames";
+import promo1 from "assets/img/theme/promo-1.png";
+import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+import ill2 from "assets/img/ill/ill-2.svg";
+import team1 from "assets/img/theme/team-1-800x800.jpg";
+import team2 from "assets/img/theme/team-2-800x800.jpg";
+import team3 from "assets/img/theme/team-3-800x800.jpg";
+import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import {
+  Badge,
+  Button,
+  Card,
+  CardBody,
+  CardImg,
+  FormGroup,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 // index page sections
-import Hero from "./IndexSections/Hero.js";
-import Buttons from "./IndexSections/Buttons.js";
-import Inputs from "./IndexSections/Inputs.js";
-import CustomControls from "./IndexSections/CustomControls.js";
-import Menus from "./IndexSections/Menus.js";
-import Navbars from "./IndexSections/Navbars.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Progress from "./IndexSections/Progress.js";
-import Pagination from "./IndexSections/Pagination.js";
-import Pills from "./IndexSections/Pills.js";
-import Labels from "./IndexSections/Labels.js";
-import Alerts from "./IndexSections/Alerts.js";
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
-import Datepicker from "./IndexSections/Datepicker.js";
-import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
 import Download from "./IndexSections/Download.js";
 
 class Index extends React.Component {
+  state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -57,40 +62,94 @@ class Index extends React.Component {
       <>
         <DemoNavbar />
         <main ref="main">
-          <Hero />
-          <Buttons />
-          <Inputs />
-          <section className="section">
+          <div className="position-relative">
+            {/* shape Hero */}
+            <section className="section section-lg section-shaped pb-250">
+              <div className="shape shape-style-1 shape-default">
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+              <Container className="py-lg-md d-flex">
+                <div className="col px-0">
+                  <Row>
+                    <Col lg="6">
+                      <h1 className="display-3 text-white">
+                        A beautiful Design System{" "}
+                        <span>completed with examples</span>
+                      </h1>
+                      <p className="lead text-white">
+                        The design system comes with four pre-built pages to
+                        help you get started faster. You can change the text and
+                        images and you're good to go.
+                      </p>
+                      <div className="btn-wrapper">
+                        <Button
+                          className="btn-icon mb-3 mb-sm-0"
+                          color="info"
+                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="fa fa-code" />
+                          </span>
+                          <span className="btn-inner--text">Components</span>
+                        </Button>
+                        <Button
+                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          color="default"
+                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="ni ni-cloud-download-95" />
+                          </span>
+                          <span className="btn-inner--text">
+                            Download React
+                          </span>
+                        </Button>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+              </Container>
+              {/* SVG separator */}
+              <div className="separator separator-bottom separator-skew">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none"
+                  version="1.1"
+                  viewBox="0 0 2560 100"
+                  x="0"
+                  y="0"
+                >
+                  <polygon
+                    className="fill-white"
+                    points="2560 0 2560 100 0 100"
+                  />
+                </svg>
+              </div>
+            </section>
+            {/* 1st Hero Variation */}
+          </div>
+          <section className="section section-lg pt-lg-0 mt--200">
             <Container>
-              <CustomControls />
-              <Menus />
+              <Row className="justify-content-center">
+                <Col lg="12">
+                  <Row className="row-grid">
+
+                  </Row>
+                </Col>
+              </Row>
             </Container>
           </section>
-          <Navbars />
-          <section className="section section-components">
-            <Container>
-              <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />
-                <Pagination />
-              </Row>
-              <Row className="row-grid justify-content-between">
-                <Pills />
-                <Labels />
-              </Row>
-              <Alerts />
-              <Typography />
-              <Modals />
-              <Datepicker />
-              <TooltipPopover />
-            </Container>
-          </section>
-          <Carousel />
-          <Icons />
-          <Login />
-          <Download />
+
         </main>
-        <CardsFooter />
+        <SimpleFooter />
       </>
     );
   }
