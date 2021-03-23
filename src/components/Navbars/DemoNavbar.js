@@ -113,22 +113,9 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className=""
-                      href="/about-me"
-                      id=""
-                      target="_blank"
-                    >
-                      About Me
-                    </NavLink>
-                    {/* <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Check out my projects ^-^
-                    </UncontrolledTooltip> */}
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className=""
                       href="/projects"
                       id=""
-                      target="_blank"
+                      target=""
                     >
                       Projects
                     </NavLink>
@@ -139,9 +126,22 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className=""
+                      href="/about-me"
+                      id=""
+                      target=""
+                    >
+                      About Me
+                    </NavLink>
+                    {/* <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Check out my projects ^-^
+                    </UncontrolledTooltip> */}
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className=""
                       href="/contact"
                       id=""
-                      target="_blank"
+                      target=""
                     >
                       Contact
                     </NavLink>

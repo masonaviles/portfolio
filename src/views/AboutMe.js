@@ -8,6 +8,11 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/portfolio/profile-pic.png";
 
+import reactIcon from "assets/img/portfolio/react.png";
+import nodeIcon from "assets/img/portfolio/node.webp";
+import expressIcon from "assets/img/portfolio/express.jpeg";
+import mongoIcon from "assets/img/portfolio/mongodb.png";
+
 class AboutMe extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -120,6 +125,191 @@ class AboutMe extends React.Component {
                   </div>
                 </div>
               </Card>
+            </Container>
+          </section>
+
+          <section className="section section-lg">
+            <Container>
+              <Row className="justify-content-center text-center mb-lg">
+                <Col lg="8">
+                  <h2 className="display-3">Meet my toolbelt</h2>
+                  <p className="lead text-muted">
+                    Here are my favorite technologies and tools of choice
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={reactIcon}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">React.js</span>
+                        <small className="h6 text-muted">Client Side Javascript</small>
+                      </h5>
+                      {/* <div className="mt-3">
+                        <Button
+                          className="btn-icon-only rounded-circle"
+                          color="warning"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="warning"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-facebook" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="warning"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-dribbble" />
+                        </Button>
+                      </div> */}
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={nodeIcon}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Node.js & NPM</span>
+                        <small className="h6 text-muted">
+                          Server Side Javascript
+                        </small>
+                      </h5>
+                      {/* <div className="mt-3">
+                        <Button
+                          className="btn-icon-only rounded-circle"
+                          color="primary"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="primary"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-facebook" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="primary"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-dribbble" />
+                        </Button>
+                      </div> */}
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={mongoIcon}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">MongoDB</span>
+                        <small className="h6 text-muted">Database</small>
+                      </h5>
+                      {/* <div className="mt-3">
+                        <Button
+                          className="btn-icon-only rounded-circle"
+                          color="info"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="info"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-facebook" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="info"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-dribbble" />
+                        </Button>
+                      </div> */}
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={expressIcon}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Express.js</span>
+                        <small className="h6 text-muted">Web Framework</small>
+                      </h5>
+                      {/* <div className="mt-3">
+                        <Button
+                          className="btn-icon-only rounded-circle"
+                          color="success"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-twitter" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="success"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-facebook" />
+                        </Button>
+                        <Button
+                          className="btn-icon-only rounded-circle ml-1"
+                          color="success"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="fa fa-dribbble" />
+                        </Button>
+                      </div> */}
+                    </div>
+                  </div>
+                </Col>
+              </Row>
             </Container>
           </section>
         </main>
