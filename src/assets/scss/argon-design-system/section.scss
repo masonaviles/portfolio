@@ -85,6 +85,13 @@
         }
     }
 
+    // Full size background image
+    .full-background-img {
+        background: url(https://images.unsplash.com/photo-1508020963102-c6c723be5764?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed;
+        background: url('../../img/portfolio/hero-bg.jpeg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
     // Color variations
     .shape-primary {
         background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);

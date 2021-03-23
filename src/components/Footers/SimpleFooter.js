@@ -37,11 +37,11 @@ class SimpleFooter extends React.Component {
           <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className=" text-primary font-weight-light mb-2">
+                <h3 className=" text-dark font-weight-light mb-2">
                   Grab some tea with me.
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
+                  Let's get in touch 😄
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
@@ -92,10 +92,10 @@ class SimpleFooter extends React.Component {
             <hr />
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
-                <div className=" copyright">
+                <div className=" copyright text-dark">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://github.com/masonaviles"
                     target="_blank"
                   >
                     Mason Aviles

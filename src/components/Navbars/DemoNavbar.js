@@ -222,10 +222,10 @@ class DemoNavbar extends React.Component {
                       href="#"
                       target="_blank"
                     >
-                      <span className="btn-inner--icon">
+                      <span className="btn-inner--icon text-dark">
                         <i className="fa fa-cloud-download mr-2" />
                       </span>
-                      <span className="nav-link-inner--text ml-1">
+                      <span className="nav-link-inner--text ml-1 text-dark">
                         Get My Resume
                       </span>
                     </Button>
