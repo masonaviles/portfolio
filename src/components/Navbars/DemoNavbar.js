@@ -132,11 +132,8 @@ class DemoNavbar extends React.Component {
                     >
                       About Me
                     </NavLink>
-                    {/* <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Check out my projects ^-^
-                    </UncontrolledTooltip> */}
                   </NavItem>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       className=""
                       href="/contact"
@@ -145,10 +142,7 @@ class DemoNavbar extends React.Component {
                     >
                       Contact
                     </NavLink>
-                    {/* <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Let's get coffee :D
-                    </UncontrolledTooltip> */}
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>

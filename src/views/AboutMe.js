@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 full-background-img alpha-4">
+            <div className="shape shape-style-1 full-background-img-me alpha-4">
               <span />
               <span />
               <span />
@@ -107,15 +107,21 @@ class AboutMe extends React.Component {
                       University of Computer Science
                     </div> */}
                   </div>
-                  <div className="mt-5 py-5 border-top text-center">
+                  <div className="mt-5 py-5 border-top text-left">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        I am Mason Aviles.  I am an immigrant from the Philippines and grew up in Georgia.  Growing up queer and transgender in the Deep South on top of being Filipino, really opened my eyes to the disparities that exist.
+                        </p>
+                        <p>
+                        I believe in empowering people to have the tools and access to all that technology has to offer.  Technology isn’t impressive if only a select few have access to it.  I want to invite art, creativity, and my background to my work.  With these values, I hope to bring these commitments to my work and work environment:
+                          <ul>
+                            <li>A clear, open communication that is based from witnessing each other’s experiences and not whether who is wrong or right.</li>
+                            <li>Teaching and learning from others.</li>
+                            <li>Accessible, readable code.</li>
+                            <li>A user-first/customer approach to features.</li>
+                            <li>Innovation comes from trust and trying new things.</li>
+                          </ul>
                         </p>
                         {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

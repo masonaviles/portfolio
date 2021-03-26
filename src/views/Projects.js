@@ -63,7 +63,7 @@ class Projects extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 full-background-img-projects">
                 <span />
                 <span />
                 <span />
@@ -134,31 +134,37 @@ class Projects extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Horned Beasts
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A React App that is like instagram for horned beasts
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              react
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              bootstrap
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            {/* <Badge color="primary" pill className="mr-1">
                               creative
-                            </Badge>
+                            </Badge> */}
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="https://sleepy-brown-4874a5.netlify.app/"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            See It Live
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://github.com/masonaviles/horned-beasts"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Github
                           </Button>
                         </CardBody>
                       </Card>
@@ -170,31 +176,51 @@ class Projects extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            City Explorer
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          A React App that uses various API's to serve city maps, movies, and weather data based off search queries
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              react
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              node.js
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Weather API
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              MovieDB API
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              LocationIQ API
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
+                            href="https://github.com/masonaviles/city-explorer"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Front End
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://github.com/masonaviles/city-explorer-api"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Back End
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://infallible-blackwell-a7eb6f.netlify.app/"
+                            onClick={e => e.preventDefault()}
+                          >
+                            See It Live
                           </Button>
                         </CardBody>
                       </Card>
@@ -206,31 +232,37 @@ class Projects extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Scoreboard
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A React App for keeping score for a number of players
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              react
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              design
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              game
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
+                            href="https://github.com/masonaviles/Scoreboard"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Github
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://masonaviles.github.io/Scoreboard/"
+                            onClick={e => e.preventDefault()}
+                          >
+                            See It Live
                           </Button>
                         </CardBody>
                       </Card>
@@ -241,111 +273,7 @@ class Projects extends React.Component {
             </Container>
           </section>
 
-          <section className="section section-lg">
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-md-2" md="6">
-                  <img
-                    alt="..."
-                    className="img-fluid floating"
-                    src={promo1}
-                  />
-                </Col>
-                <Col className="order-md-1" md="6">
-                  <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
-                    </div>
-                    <h3>Awesome features</h3>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <ul className="list-unstyled mt-5">
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-settings-gear-65" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-html5" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-satisfied" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+          
 
           <section className="section section-lg bg-lighter">
             <Container>
