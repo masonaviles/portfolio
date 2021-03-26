@@ -48,25 +48,6 @@ ReactDOM.render(
         path="/projects" 
         exact 
         render={props => <Projects {...props} />} />
-      {/* <Route
-        path="/landing-page"
-        exact
-        render={props => <Landing {...props} />}
-      />
-      <Route 
-        path="/login-page" 
-        exact 
-        render={props => <Login {...props} />} />
-      <Route
-        path="/profile-page"
-        exact
-        render={props => <Profile {...props} />}
-      />
-      <Route
-        path="/register-page"
-        exact
-        render={props => <Register {...props} />}
-      /> */}
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
