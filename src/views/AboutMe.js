@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -102,6 +102,66 @@ class AboutMe extends React.Component {
                       <i className="ni business_briefcase-24 mr-2" />
                       Software Engineer
                     </div>
+                    <div className="h6 mt-4">
+                      <i className="ni business_briefcase-24 mr-2" />
+                      <Button
+                        className="btn-neutral btn-icon"
+                        color="github"
+                        href="https://docs.google.com/document/d/1UXr42TAU0hjcuRpNd2ogODJ9plMoMoxMTDEtegjdWgI/edit?usp=sharing"
+                        target="_blank"
+                      >
+                        <span className="btn-inner--icon text-white">
+                          <i className="fa fa-cloud-download mr-2" />
+                        </span>
+                        <span className="nav-link-inner--text ml-1 text-white">
+                          Get My Resume
+                        </span>
+                      </Button>
+                    </div>
+                    <Col className="text-lg-center mt-3 btn-wrapper" lg="12">
+                      <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="facebook"
+                        href="https://www.linkedin.com/in/masonaviles/"
+                        id="tooltip837440414"
+                        target="_blank"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-linkedin" />
+                        </span>
+                      </Button>
+                      <UncontrolledTooltip delay={0} target="tooltip837440414">
+                        Connect with me
+                </UncontrolledTooltip>
+                      <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="github"
+                        href="https://github.com/masonaviles"
+                        id="tooltip495507257"
+                        target="_blank"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-github" />
+                        </span>
+                      </Button>
+                      <UncontrolledTooltip delay={0} target="tooltip495507257">
+                        Star me on Github
+                </UncontrolledTooltip>
+                      <Button
+                        className="btn-icon-only rounded-circle ml-1"
+                        color="twitter"
+                        href="mailto:mce.aviles@gmail.com"
+                        id="tooltip829810202"
+                        target="_blank"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fa fa-envelope" />
+                        </span>
+                      </Button>
+                      <UncontrolledTooltip delay={0} target="tooltip829810202">
+                        Send me a note
+                </UncontrolledTooltip>
+                    </Col>
                     {/* <div>
                       <i className="ni education_hat mr-2" />
                       University of Computer Science
@@ -111,10 +171,10 @@ class AboutMe extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        I am Mason Aviles.  I am an immigrant from the Philippines and grew up in Georgia.
+                          I am Mason Aviles.  I am an immigrant from the Philippines and grew up in Georgia.
                         </p>
                         <p>
-                        I believe in empowering people to have the tools and access to all that technology has to offer.  I want to invite art, creativity, and my background to my work.  With these values, I hope to bring these commitments to my work and work environment:
+                          I believe in empowering people to have the tools and access to all that technology has to offer.  I want to invite art, creativity, and my background to my work.  With these values, I hope to bring these commitments to my work and work environment:
                           <ul>
                             <li>A clear, open communication that is based from witnessing each other’s experiences and not whether who is wrong or right.</li>
                             <li>Teaching and learning from others.</li>

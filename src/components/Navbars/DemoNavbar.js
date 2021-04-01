@@ -197,7 +197,7 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="#"
+                      href="https://docs.google.com/document/d/1UXr42TAU0hjcuRpNd2ogODJ9plMoMoxMTDEtegjdWgI/edit?usp=sharing"
                       target="_blank"
                     >
                       <span className="btn-inner--icon text-dark">

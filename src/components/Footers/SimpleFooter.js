@@ -48,7 +48,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.linkedin.com/in/masonaviles/"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -62,7 +62,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/masonaviles"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -76,7 +76,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="twitter"
-                  href="https://dribbble.com/creativetim"
+                  href="mailto:mce.aviles@gmail.com"
                   id="tooltip829810202"
                   target="_blank"
                 >
