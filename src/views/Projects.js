@@ -18,7 +18,8 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
+import promo1 from "assets/img/portfolio/swdev.png";
+import promo2 from "assets/img/portfolio/swdev2.png";
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
@@ -588,7 +589,7 @@ class Projects extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src={promo2}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -702,12 +703,12 @@ class Projects extends React.Component {
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-satisfied" />
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
+                          <h5 className="title text-warning">
                             A Developer with many hats
                           </h5>
                           <p>
