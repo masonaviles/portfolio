@@ -97,7 +97,8 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={argonReact}
+                          src={logo}
+                          className="logo-dark"
                         />
                       </Link>
                     </Col>
