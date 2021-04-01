@@ -62,7 +62,7 @@ class AboutMe extends React.Component {
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           <img
                             alt="..."
-                            className="rounded-pill"
+                            className="rounded-circle"
                             src={profile}
                           />
                         </a>
@@ -90,7 +90,7 @@ class AboutMe extends React.Component {
                       </div>
                     </Col>
                   </Row>
-                  <div className="text-center mt-7">
+                  <div className="text-center mt-8">
                     <h3>
                       Mason Aviles
                     </h3>
@@ -111,10 +111,10 @@ class AboutMe extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        I am Mason Aviles.  I am an immigrant from the Philippines and grew up in Georgia.  Growing up queer and transgender in the Deep South on top of being Filipino, really opened my eyes to the disparities that exist.
+                        I am Mason Aviles.  I am an immigrant from the Philippines and grew up in Georgia.
                         </p>
                         <p>
-                        I believe in empowering people to have the tools and access to all that technology has to offer.  Technology isn’t impressive if only a select few have access to it.  I want to invite art, creativity, and my background to my work.  With these values, I hope to bring these commitments to my work and work environment:
+                        I believe in empowering people to have the tools and access to all that technology has to offer.  I want to invite art, creativity, and my background to my work.  With these values, I hope to bring these commitments to my work and work environment:
                           <ul>
                             <li>A clear, open communication that is based from witnessing each other’s experiences and not whether who is wrong or right.</li>
                             <li>Teaching and learning from others.</li>
