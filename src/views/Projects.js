@@ -366,18 +366,18 @@ class Projects extends React.Component {
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="https://masonaviles.github.io/Connect-Four/"
-                            onClick={e => e.preventDefault()}
-                          >
-                            See It Live
-                          </Button>
-                          <Button
-                            className="mt-4"
-                            color="primary"
                             href="https://github.com/masonaviles/Connect-Four"
                             onClick={e => e.preventDefault()}
                           >
                             Github
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://masonaviles.github.io/Connect-Four/"
+                            onClick={e => e.preventDefault()}
+                          >
+                            See It Live
                           </Button>
                         </CardBody>
                       </Card>
