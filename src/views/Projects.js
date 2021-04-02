@@ -64,7 +64,7 @@ class Projects extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 full-background-img-projects">
+              <div className="shape shape-style-1 full-background-img-projects-port">
                 <span />
                 <span />
                 <span />
