@@ -308,6 +308,9 @@ class Projects extends React.Component {
                             <Badge color="warning" pill className="mr-1">
                               Google Books API
                             </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              AuthO
+                            </Badge>
                           </div>
                           <Button
                             className="mt-4"
