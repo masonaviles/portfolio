@@ -129,6 +129,10 @@
             background-color: black;
         }
         @include media-breakpoint-up(lg) {
+            & {
+                background: url('../../img/portfolio/projects-bg.jpeg') no-repeat 20rem -15rem fixed;background-size: cover;
+                background-color: black;
+            }
             &::before {
                 background:none;
             }
