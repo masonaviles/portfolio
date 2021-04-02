@@ -155,7 +155,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://github.com/masonaviles/horned-beasts"
-                            onClick={e => e.preventDefault()}
                           >
                             Github
                           </Button>
@@ -163,7 +162,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://sleepy-brown-4874a5.netlify.app/"
-                            onClick={e => e.preventDefault()}
                           >
                             See It Live
                           </Button>
@@ -203,7 +201,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://github.com/masonaviles/city-explorer"
-                            onClick={e => e.preventDefault()}
                           >
                             Front End
                           </Button>
@@ -211,7 +208,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://github.com/masonaviles/city-explorer-api"
-                            onClick={e => e.preventDefault()}
                           >
                             Back End
                           </Button>
@@ -219,7 +215,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://infallible-blackwell-a7eb6f.netlify.app/"
-                            onClick={e => e.preventDefault()}
                           >
                             See It Live
                           </Button>
@@ -253,7 +248,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://github.com/masonaviles/Scoreboard"
-                            onClick={e => e.preventDefault()}
                           >
                             Github
                           </Button>
@@ -261,7 +255,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://masonaviles.github.io/Scoreboard/"
-                            onClick={e => e.preventDefault()}
                           >
                             See It Live
                           </Button>
@@ -316,7 +309,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://github.com/arpatterson31/best-books-front-end"
-                            onClick={e => e.preventDefault()}
                           >
                             Front End
                           </Button>
@@ -324,7 +316,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://github.com/arpatterson31/best-books-back-end"
-                            onClick={e => e.preventDefault()}
                           >
                             Back End
                           </Button>
@@ -332,7 +323,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://gracious-wilson-69136f.netlify.app/"
-                            onClick={e => e.preventDefault()}
                           >
                             See It Live
                           </Button>
@@ -367,7 +357,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://github.com/masonaviles/Connect-Four"
-                            onClick={e => e.preventDefault()}
                           >
                             Github
                           </Button>
@@ -375,7 +364,6 @@ class Projects extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://masonaviles.github.io/Connect-Four/"
-                            onClick={e => e.preventDefault()}
                           >
                             See It Live
                           </Button>
