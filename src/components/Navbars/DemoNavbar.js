@@ -149,7 +149,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.linkedin.com/in/masonaviles/"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -165,7 +165,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/masonaviles"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -181,7 +181,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="mailto:mce.aviles@gmail.com"
                       id="tooltip333589074"
                       target="_blank"
                     >
